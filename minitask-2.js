@@ -1,4 +1,4 @@
-let jumBel = a;
+let jumBel = 500000;
 let jumBelFinal;
 
 if(jumBel>=0){
