@@ -1,6 +1,6 @@
 let jumBel = 500000;
 let jumBelFinal;
-if(jumBel < 500000){
+if(jumBel >= 0 && jumBel < 500000){
     jumBelFinal = jumBel;
 }else if (jumBel >= 500000 && jumBel <= 1000000){
     jumBelFinal = jumBel - (0.05 * jumBel);
